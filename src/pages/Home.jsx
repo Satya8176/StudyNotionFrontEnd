@@ -48,7 +48,7 @@ function Home() {
           loop
           autoPlay
           muted
-          src="src/assets/Banner.mp4" className="w-full h-full object-cover"></video>
+          src="Banner.mp4" className="w-full h-full object-cover"></video>
         </div>
 
         {/* code section 1 */}
