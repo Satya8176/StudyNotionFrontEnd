@@ -9,13 +9,13 @@
     "preview": "vite preview",
     "client": "vite --host=0.0.0.0",
     "dev": "npm run client"
-    
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "@tailwindcss/vite": "^4.1.11",
     "axios": "^1.10.0",
     "concurrently": "^9.2.0",
+    "dotenv": "^17.2.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-hot-toast": "^2.5.2",

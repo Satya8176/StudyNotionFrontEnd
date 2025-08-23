@@ -61,12 +61,12 @@ function NavItemNavbar() {
                     '>
                     <div className='absolute left-[44%] top-0 h-16 w-16 rotate-45 bg-white translate-x-1 z-0 rounded-[2px]'>
                     </div>
-                    {subLinks.length===0 ? (<div >
+                    {subLinks && subLinks.length===0 ? (<div >
                       <p className='text-black w-11/12 bg-slate-100 rounded-sm relative font-semibold py-3 px-3 my-2 z-50'>
                         No Category Found
                       </p>
                       </div>):(
-                      subLinks.map((subLink,index)=>(
+                      subLinks &&  subLinks.map((subLink,index)=>(
                         <Link to={`/catalog/${subLink.categoryName}`} key={index}
                         onClick={()=>{
                           categoryDetail(subLink._id);

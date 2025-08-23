@@ -2,7 +2,7 @@ import axios from "axios"
 
 // export const axiosInstance = axios.create({});
 export const axiosInstance = axios.create({
-  baseURL: "https://study-notion-backend-chi.vercel.app/api/v1", // backend URL
+  baseURL: import.meta.env.VITE_APP_BASE_URL, // backend URL
   withCredentials: true, // allow sending cookies/auth headers if needed
 });
 

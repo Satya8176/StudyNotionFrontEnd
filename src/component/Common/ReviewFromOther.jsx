@@ -60,7 +60,7 @@ function ReviewFromOther() {
        }}
        >
         {
-          ratings.map((obj,index)=>(
+          ratings && ratings.map((obj,index)=>(
             <div className='md:w-[90%] flex flex-row gap-7 py-5'>
             <SwiperSlide key={index}>
               <Review img={obj?.user?.image} name={obj?.user?.firstName} description={obj?.review} rate={obj?.rating} />
