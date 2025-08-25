@@ -24,12 +24,12 @@ function NavItemLoginSup() {
 
   // console.log("Token is ",token)
   return (
-    <div className='flex md:gap-x-4 items-center justify-center '>
+    <div className='md:flex md:gap-x-4 items-center '>
       {
         token !==null && (
           user&&user?.accountType != "Instructor" &&(
           <Link to={"dashboard/cart"} className='relative'> 
-            <FaCartPlus className='text-slate-100 text-2xl absolute top-0 md:translate-y-[-10px] translate-y-[22px] right-0'/>
+            <FaCartPlus className='text-slate-100 text-2xl absolute top-0 md:translate-y-[-10px] translate-y-[15px] right-0'/>
             {
               cartItems &&  cartItems?.length>0 &&(
                 <span className='text-yellow-300 text-[12px] absolute right-0 top-8 md:top-0 bg-slate-800 font-extrabold rounded-full px-2'>
