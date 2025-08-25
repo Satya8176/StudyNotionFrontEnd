@@ -29,10 +29,10 @@ function NavItemLoginSup() {
         token !==null && (
           user&&user?.accountType != "Instructor" &&(
           <Link to={"dashboard/cart"} className='relative'> 
-            <FaCartPlus className='text-slate-100 text-2xl absolute top-0 md:translate-y-[-10px] translate-y-[15px] right-0'/>
+            <FaCartPlus className='text-slate-100 text-2xl absolute top-0 md:translate-y-[-10px] translate-y-[11px] right-0'/>
             {
               cartItems &&  cartItems?.length>0 &&(
-                <span className='text-yellow-300 text-[12px] absolute right-0 top-8 md:top-0 bg-slate-800 font-extrabold rounded-full px-2'>
+                <span className='text-yellow-300 text-[12px] absolute right-0 top-6 md:top-0 bg-slate-800 font-extrabold rounded-full px-2'>
                   {cartItems.length}
                 </span>
               )
