@@ -24,7 +24,7 @@ function NavItemLoginSup() {
 
   // console.log("Token is ",token)
   return (
-    <div className='flex md:gap-x-4 items-center '>
+    <div className='flex md:gap-x-4 items-center justify-center '>
       {
         token !==null && (
           user&&user?.accountType != "Instructor" &&(
