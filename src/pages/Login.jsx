@@ -43,8 +43,8 @@ function Login() {
         throw new Error(errorData.message);
       }
       toast.success("Log In Successfully",{id:toastId});
+      console.log("Token came is ",result.data)
       dispatch(setToken(result.data.token))
-      
       localStorage.setItem("token",JSON.stringify(result.data.token))
       navigate("/");
       
