@@ -25,7 +25,6 @@ function SmallNav({open,setSmallNavOpen}) {
     }
   const fetchSublinks = async()=>{
         try{
-          // console.log("Hey i am here ")
           const result =await apiConnector("GET",categroyApi.CATEGORY_API);
           setSubLinks(result.data.body);
         }
@@ -37,7 +36,6 @@ function SmallNav({open,setSmallNavOpen}) {
       fetchSublinks();
       // fetchCartItems();
     },[])
-    // console.log("Open is ",open)
   return (
     <div>
       {

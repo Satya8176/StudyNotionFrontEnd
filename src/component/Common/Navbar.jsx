@@ -68,7 +68,7 @@ function Navbar({isfixed}) {
       autoPlay
       className=' sm:w-[45px] sm:h-[45px] w-[40px] h-[40px] rounded-full object-cover'
       ></video>
-      <p className='sm:text-2xl text-xl text-white lg:text-3xl font-bold'>StudySprout</p>
+      <p className='sm:text-2xl text-xl text-white lg:text-3xl font-bold'>StudyNotion</p>
      </div>
       
      </Link>

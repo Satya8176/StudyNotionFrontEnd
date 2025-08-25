@@ -73,31 +73,7 @@ function ProfileDropDown() {
     const result=await fetchTotalUserDetial();
     dispatch(setUser(result));
     setuserDetail(result);
-    //   try{
-    //     // dispatch(setLoading(true))
-    //     const response=await apiConnector("GET",profileApi.USER_DETAIL);
-    //     const data = response.data.data;
-    //     // console.log("Data is ",data);
-    //     const userDetail={
-    //       firstName: data.firstName,
-    //       lastName: data.lastName,
-    //       email: data.email,
-    //       dateOfBirth: data.additionalDetal.dateOfBirth,
-    //       contactNumber: data.additionalDetal.contactNumber,
-    //       about: data.additionalDetal.about,
-    //       gender: data.additionalDetal.gender,
-    //       accountType:data.accountType,
-    //       imgUrl:data.image
-    //     };
-    //     dispatch(setUser(userDetail));
-    //     setuserDetail(data)
-    //     // console.log("User Detail is ",userDetail)
-    //   }
-    //   catch(err){
-    //   console.log("There is some error while fetching User Detail")
-    //   // const message=err.response.data.message;
-    //   // toast.error(message);
-    // }
+
   }
 
   useEffect(()=>{
@@ -204,3 +180,31 @@ export default ProfileDropDown
     //   }
     //   </div>
     // </div>
+
+
+
+        //   try{
+    //     // dispatch(setLoading(true))
+    //     const response=await apiConnector("GET",profileApi.USER_DETAIL);
+    //     const data = response.data.data;
+    //     // console.log("Data is ",data);
+    //     const userDetail={
+    //       firstName: data.firstName,
+    //       lastName: data.lastName,
+    //       email: data.email,
+    //       dateOfBirth: data.additionalDetal.dateOfBirth,
+    //       contactNumber: data.additionalDetal.contactNumber,
+    //       about: data.additionalDetal.about,
+    //       gender: data.additionalDetal.gender,
+    //       accountType:data.accountType,
+    //       imgUrl:data.image
+    //     };
+    //     dispatch(setUser(userDetail));
+    //     setuserDetail(data)
+    //     // console.log("User Detail is ",userDetail)
+    //   }
+    //   catch(err){
+    //   console.log("There is some error while fetching User Detail")
+    //   // const message=err.response.data.message;
+    //   // toast.error(message);
+    // }
