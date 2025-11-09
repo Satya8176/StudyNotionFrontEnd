@@ -233,7 +233,7 @@ function SignUp() {
                     <input
                       type={`${hideC?("password"):("text")}`}
                       name="createPasswd"
-                      placeholder="Enter First Name here"
+                      placeholder="Enter Your Password"
                       value={values.createPasswd}
                       onChange={onchangeHandler}
                       className="bg-slate-700 p-2 mb-3 w-[90%] mt-1 rounded-lg placeholder-slate-400"
@@ -253,7 +253,7 @@ function SignUp() {
                     <input
                       type={`${hideN?("password"):("text")}`}
                       name="cnfPasswd"
-                      placeholder="Enter Last Name here"
+                      placeholder="Confirm Your Password"
                       value={values.cnfPasswd}
                       onChange={onchangeHandler}
                       className="bg-slate-700 p-2 mb-3 w-[90%] mt-1 rounded-lg placeholder-slate-400"
