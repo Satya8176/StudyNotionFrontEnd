@@ -78,7 +78,7 @@ export default function SmallLoginSideBar() {
          `}
       >
         <div className="p-4 flex justify-between items-center border-b ">
-          <h2 className="text-lg font-bold">StudyNotion</h2>
+          <h2 className="text-lg font-bold">EduVerse</h2>
           <button
             className="hover:cursor-pointer"
             onClick={() => setIsOpen(false)}

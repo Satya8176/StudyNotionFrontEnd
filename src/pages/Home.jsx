@@ -168,7 +168,7 @@ function Home() {
             </div>
             <div className="flex flex-col md:w-[45%] w-[65%] items-start">
               <div className="text-[16px] font-bold mb-5">
-               The modern StudyNotion is the dictates its own terms, Today, to be a competitive specialist requires more than professional skills.
+               The modern EduVerse is the dictates its own terms, Today, to be a competitive specialist requires more than professional skills.
               </div>
                 <Button active={true} linkto={"signup"}>
                 Learn More
@@ -193,7 +193,7 @@ function Home() {
           <div className="md:text-4xl text-2xl font-bold text-white md:w-[70%] w-[100%]"
           >Become an <HighlightText text={"Instructor"}/></div>
           <div className="text-base text-slate-500">
-            Insrtuction from around the world tech million of students on StudyNotion. We provide skill and tool to teach what you love.
+            Insrtuction from around the world tech million of students on EduVerse. We provide skill and tool to teach what you love.
           </div>
           
             <Button active={true} linkto={"/signup"}>
